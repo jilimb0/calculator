@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body id="light">
+    <header id="theme-switcher">Switch to dark theme</header>
+
+    <main class="calculator">
+      <div class="calculator__display">0</div>
+
+      <div class="calculator__keys">
+        <button class="key-operator" data-action="add" id="+">+</button>
+        <button class="key-operator" data-action="subtract" id="-">-</button>
+        <button class="key-operator" data-action="multiply" id="*">
+          &times;
+        </button>
+        <button class="key-operator" data-action="divide" id="/">÷</button>
+        <button id="7">7</button>
+        <button id="8">8</button>
+        <button id="9">9</button>
+        <button id="4">4</button>
+        <button id="5">5</button>
+        <button id="6">6</button>
+        <button id="1">1</button>
+        <button id="2">2</button>
+        <button id="3">3</button>
+        <button id="0">0</button>
+        <button data-action="decimal" id=".">.</button>
+        <button data-action="clear">AC</button>
+        <button class="key-equal" data-action="calculate" id="=">=</button>
+      </div>
+    </main>
+
+    <footer>
+      <a href="https://github.com/jilimb0/calculator.git">Link to github</a>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
